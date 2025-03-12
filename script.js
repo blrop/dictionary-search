@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 		for (let item of dict) {
 			i++;
-			const parts = item.split(',');
 			const word = item.toLowerCase();
 
 			if (word.startsWith(input)) {
