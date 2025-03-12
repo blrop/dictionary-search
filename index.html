@@ -10,7 +10,13 @@
 <body>
 	<div class="wrapper">
 		<h1>An example of how fast searching can be in a dictionary containing 188,500 words</h1>
-		<input type="text" placeholder="Enter a word..." id="input" autofocus>
+		<input type="text" placeholder="Enter a word..." id="text-input" autofocus>
+		<label>
+			<input type="radio" name="search-type" id="search-type-iteration" checked> Simple iteration through all the words
+		</label>
+		<label>
+			<input type="radio" name="search-type" id="search-type-binary"> Binary search
+		</label>
 		<div id="status"></div>
 		<div id="result"></div>
 	</div>
