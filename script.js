@@ -68,6 +68,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 	const dict = await getDict();
 
+	$input.disabled = false;
+	$input.focus();
 	$status.innerText = '';
 
 	$input.addEventListener('input', (e) => {
