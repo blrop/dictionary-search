@@ -1,10 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: sans-serif;
+	margin: 0;
 }
 
 .wrapper {
 	width: 500px;
-	margin: 100px auto 0;
+	margin: 10px auto;
 	background: #eee;
 	padding: 20px;
 	display: flex;
@@ -40,4 +45,11 @@ h1 {
 
 label {
 	cursor: pointer;
+}
+
+@media (max-width: 500px) {
+	.wrapper {
+		margin-top: 0;
+		width: 100%;
+	}
 }
